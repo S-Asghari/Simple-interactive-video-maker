@@ -9,7 +9,7 @@ To distinguish foreground from the background, this program uses "background sub
 
 In each frame there are exactly 300 drops whose locations are set randomly at first.
 
-In a "for" loop each drop is shifted a bit to the bottom of the frame page compared to previous frame and if this displacement makes the drop to get out of the frame, the drop will be removed and a new drop with random coordinates will be placed instead.
+In a "for" loop each drop is shifted a bit to the bottom of the frame page compared to previous frame and if this displacement makes the drop to get out of the frame, it will be removed and a new drop with random coordinates will be placed instead.
 
 Each drop can only fall untill it reaches a foreground(a white pixel of fgMaskMOG in that location). Since then, it will not move any more.
 
