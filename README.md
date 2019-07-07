@@ -1,4 +1,4 @@
-# Simple-interavtive-video-maker
+# Simple-interactive-video-maker
 This program uses OpenCv in C++ to make a simple interactive video.
 
 By changing first argument of main inputs, the program detects if it should process a pre-existing video or it should get frames online by webcam.
