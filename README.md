@@ -17,4 +17,4 @@ To improve the quality of foreground detection, I've used edge and blur filters,
 
 Each frame is stored in a new video called "output" after applying the effect and the video can be found in a specified location of the computer after the program execution is finished.
 
-PAY ATTENTION : Because of how fgMask works in OpenCv version 2.4.9, it's better not to place a moving object(foreground) in the fisrt frame of the video (or in front of the webcam)!
+PAY ATTENTION : Because of how fgMask works in OpenCv version 2.4.9, it's better not to place a moving object(foreground) in the first frame of the video (or in front of the webcam)!
