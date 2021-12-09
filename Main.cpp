@@ -47,7 +47,7 @@ int main(int argc, char* argv[])
         return EXIT_FAILURE;
     }
 
-	Drop = imread("C:/Users/Sara/Desktop/Term6/A.I/Projects/3Projects_9513005/image_proccessing/drop3.png", CV_LOAD_IMAGE_COLOR);
+	Drop = imread("C:/Users/Sara/Desktop/image_proccessing/drop3.png", CV_LOAD_IMAGE_COLOR);
 	//cout << Drop.cols << " " << Drop.rows << endl;
 	resize(Drop, Drop, cv::Size(Drop.cols / 7.2, Drop.rows / 7.2), 0, 0, CV_INTER_LINEAR);	//drop3 : 7.2	//flower : 27.5
 	//cout << Drop.cols << " " << Drop.rows << endl;
@@ -102,7 +102,7 @@ void processVideo(char* videoFilename)
 	capture >> frame;
 	resize(frame, frame, Size(frame.cols * 0.75, frame.rows * 0.75), 0, 0, CV_INTER_LINEAR);
 	
-	VideoWriter video("C:/Users/Sara/Desktop/Term6/A.I/Projects/Project1_9513005/image_proccessing/output.avi", CV_FOURCC('M','J','P','G'), 10, Size(frame.cols,frame.rows));
+	VideoWriter video("C:/Users/Sara/Desktop/image_proccessing/output.avi", CV_FOURCC('M','J','P','G'), 10, Size(frame.cols,frame.rows));
 
 	srand(time(0));
 	for (int i = 0; i < 300; i++)
