@@ -20,3 +20,4 @@ Each frame is stored in a new video called "output" after applying the effect an
 PAY ATTENTION : Because of how fgMask works in OpenCv version 2.4.9, it's better not to place a moving object(foreground) in the first frame of the video (or in front of the webcam)!
 
 ![alt text](https://github.com/S-Asghari/Simple-interactive-video-maker/blob/master/an%20output%20frame.jpg?raw=true)
+<a href="url"><img src="https://github.com/S-Asghari/Simple-interactive-video-maker/blob/master/an%20output%20frame.jpg?raw=true" height="579" width="1026" ></a>
