@@ -21,3 +21,4 @@ PAY ATTENTION : Because of how fgMask works in OpenCv version 2.4.9, it's better
 
 ![alt text](https://github.com/S-Asghari/Simple-interactive-video-maker/blob/master/an%20output%20frame.jpg?raw=true)
 <a href="url"><img src="https://github.com/S-Asghari/Simple-interactive-video-maker/blob/master/an%20output%20frame.jpg?raw=true" height="579" width="1026" ></a>
+![test image size]<img src="https://github.com/S-Asghari/Simple-interactive-video-maker/blob/master/an%20output%20frame.jpg?raw=true" width="1026" height="579">
